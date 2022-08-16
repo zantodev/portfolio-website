@@ -302,7 +302,7 @@ h6 { font-size: 16px; }
 	justify-content: space-between;
 }
 .zanto_tm_mobile_menu .mobile_in .logo img{
-	height: 60px;
+	height: 40px;
 }
 .zanto_tm_mobile_menu .trigger{
 	line-height: 0;
@@ -393,7 +393,7 @@ h6 { font-size: 16px; }
 	justify-content: space-between;
 }
 .zanto_tm_header .logo img{
-	height: 60px;
+	height: 40px;
 }
 .zanto_tm_header .menu ul{
 	margin: 0px;
@@ -2182,7 +2182,7 @@ h6 { font-size: 16px; }
 	.container{max-width: 1130px;padding: 0px 30px;}
 	.container.wide{max-width: 1200px;}
 	.zanto_tm_header .button a{padding: 10px 30px 9px 30px;}
-	.zanto_tm_header .logo img{height: 60px;}
+	.zanto_tm_header .logo img{height: 40px;}
 	.zanto_tm_header{padding: 15px 0px;}
 	.zanto_tm_header.animate{padding: 10px 0px;}
 	.zanto_tm_header.animate .button a{padding: 5px 30px 4px 30px;}
