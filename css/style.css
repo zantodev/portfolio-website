@@ -2298,7 +2298,7 @@ h6 { font-size: 16px; }
 	.zanto_tm_features ul{margin: 0px;}
 	.zanto_tm_features ul li{width: 100%;padding-left: 0px;}
 	.zanto_tm_features ul li .title h3{font-size: 25px;}
-	.zanto_tm_hero .avatar img{max-width: 300px;max-height: 300px;}
+	.zanto_tm_hero .avatar img{display: none;}
 	.zanto_tm_main_title h3{font-size: 35px;}
 	.zanto_tm_counter_section ul{margin: 0px;}
 	.zanto_tm_counter_section ul li{width: 100%;padding-left: 0px;}
