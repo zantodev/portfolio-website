@@ -468,8 +468,8 @@ h6 { font-size: 16px; }
 	width: 100%;
 	min-height: 100vh;
 	position: relative;
-	border: 2px solid red;
 }
+
 .zanto_tm_hero .details{
 	display: flex;
 	flex-direction: column;
@@ -477,8 +477,8 @@ h6 { font-size: 16px; }
 	margin-top: 30vh;
 	margin-left: 5vh;
 	margin-right: 5vh;
-	border: 2px solid blue;
 }
+
 .zanto_tm_hero .hi{
 	display: inline-block;
 	font-family: var(--font-family-inter);
