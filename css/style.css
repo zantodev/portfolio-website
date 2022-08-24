@@ -32,7 +32,7 @@ a{
 	text-decoration: none;
 }
 :root{
-    --main-color: #505a7e;
+    --main-color: rgb(24 24 27);
     --font-family-inter: 'Inter', sans-serif;
     --font-family-grotesk: 'Space Grotesk', sans-serif;
     --font-family-calistoga: 'Calistoga', cursive;
@@ -138,6 +138,7 @@ h6 { font-size: 16px; }
 	clear: both;
 	float: left;
 	position: relative;
+	color: var(--)
 }
 .zanto_tm_all_wrap,
 .zanto_tm_all_wrap *{
@@ -487,6 +488,7 @@ h6 { font-size: 16px; }
 	margin-bottom: 20px;
 	max-width: 70%;
 }
+
 .zanto_tm_hero .name{
 	font-size: 88px;
 	letter-spacing: -4px;
@@ -499,6 +501,16 @@ h6 { font-size: 16px; }
 	color: #24315E;
 	margin-bottom: 60px;
 }
+
+.zanto_tm_hero .hi2{
+	display: inline-block;
+	font-size: 20px;
+	color: #24315E;
+	font-weight: 500;
+	margin-bottom: 20px;
+	max-width: 100%;
+}
+
 .zanto_tm_hero .buttons{
 	display: flex;
 	align-items: center;
@@ -2242,6 +2254,7 @@ h6 { font-size: 16px; }
 	.zanto_tm_features ul li{width: 50%;}
 	.zanto_tm_hero .avatar img{display: none;}
 	.zanto_tm_hero .social{display: none;}
+	.zatno_tm_features{border: 2px solid red;}
 	.zanto_tm_features ul li .list_inner:after{display: none;}
 	.zanto_tm_features ul li .list_inner:before{display: none;}
 	.zanto_tm_skills .skills_in{flex-direction: column;align-items: baseline; }
@@ -2342,10 +2355,11 @@ h6 { font-size: 16px; }
 	.zanto_tm_features ul{margin: 0px;}
 	.zanto_tm_features ul li{width: 100%;padding-left: 0px;}
 	.zanto_tm_features ul li .title h3{font-size: 25px;}
-	.zanto_tm_hero .details{margin-top: 25vh; margin-left: 0; margin-right: 0;}
-	.zanto_tm_hero .hi{font-size: 15px;}
-	.zanto_tm_hero .name{font-size: 55px;margin-bottom: 15px;}
-	.zanto_tm_hero .text{font-size: 25px;margin-bottom: 40px;}
+	.zanto_tm_hero .details{margin-top: 15vh; margin-left: 0; margin-right: 0;}
+	.zanto_tm_hero .hi{font-size: 15px; width: 100%; margin-bottom: 15px;}
+	.zanto_tm_hero .name{font-size: 35px;font-weight: 600; margin-bottom: 15px;}
+	.zanto_tm_hero .text{font-size: 25px;margin-bottom: 10px;}
+	.zanto_tm_hero .hi2{font-size: 15px;}
 	.zanto_tm_hero .avatar img{display: none;}
 	.zanto_tm_main_title h3{font-size: 35px;}
 	.zanto_tm_counter_section ul{margin: 0px;}
