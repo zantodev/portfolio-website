@@ -450,12 +450,12 @@ h6 { font-size: 16px; }
 
 .zanto_tm_hero{
 	width: 100%;
-	min-height: 80vh;
+	height: 60vh;
 	float: left;
 	position: relative;
 }
 .zanto_tm_hero .background{
-	height: 80vh;
+	
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -467,17 +467,15 @@ h6 { font-size: 16px; }
 }
 .zanto_tm_hero .content{
 	width: 100%;
-	min-height: 80vh;
-	position: relative;
 }
 
 .zanto_tm_hero .details{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	margin-top: 30vh;
-	margin-left: 5vh;
-	margin-right: 5vh;
+	margin-top: 20vh;
+	margin-left: 2vh;
+	margin-right: 2vh;
 }
 
 .zanto_tm_hero .hi{
@@ -487,6 +485,7 @@ h6 { font-size: 16px; }
 	color: #24315E;
 	font-weight: 500;
 	margin-bottom: 20px;
+	max-width: 70%;
 }
 .zanto_tm_hero .name{
 	font-size: 88px;
