@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-/*	Copyright (c) 2022 Marketify
-/*	Author: Marketify
 /*	This file is made for CURRENT TEMPLATE
 
 
@@ -36,6 +34,7 @@ a{
     --font-family-inter: 'Inter', sans-serif;
     --font-family-grotesk: 'Space Grotesk', sans-serif;
     --font-family-calistoga: 'Calistoga', cursive;
+	--text-opacity: 1;
 	
 }
 html {
@@ -52,8 +51,7 @@ body{
 	letter-spacing: 0px;
 	word-wrap: break-word;
 	font-weight: 400;
-	background-color: #fff;
-	color: var(--main-color);
+	background-color: var(--main-color);
 }
 
 svg{
@@ -105,7 +103,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .container{
-	max-width: 1250px;
 	width:100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -115,14 +112,13 @@ body::-webkit-scrollbar-thumb {
 	clear:both;
 }
 .container.wide{
-	max-width: 1480px;
+	max-width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6{
 	font-weight:700;
 	line-height: 1.2;
 	font-family: var(--font-family-inter);
-	color: #24315E;
 }
 
 h1 { font-size: 45px; }
@@ -132,14 +128,29 @@ h4 { font-size: 24px; }
 h5 { font-size: 20px; }
 h6 { font-size: 16px; }
 
+.text-white {
+	--text-opacity: 1;
+	color: rgb(255,255,255);
+}
+
+.text-blue {
+	--text-opacity: 1;
+	color: #24315E;
+}
+
+.bg-gray-800 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(39 39 42);
+}
+
 .zanto_tm_all_wrap{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	position: relative;
-	color: var(--)
 }
+
 .zanto_tm_all_wrap,
 .zanto_tm_all_wrap *{
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -271,6 +282,19 @@ h6 { font-size: 16px; }
 	float: left;
 }
 
+#flex-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  #flex-container .flex-item {
+	width: auto;
+	height: auto;
+  }
+  
+ 
+
 /*---------------------------------------------------*/
 /*	02) zanto MOBILE MENU
 /*---------------------------------------------------*/
@@ -290,7 +314,6 @@ h6 { font-size: 16px; }
 	height: auto;
 	float: left;
 	clear: both;
-	background-color: #fff;
 	border-bottom: 1px solid rgba(0,0,0,.1);
 	padding: 10px 20px 10px 20px;
 }
@@ -310,11 +333,12 @@ h6 { font-size: 16px; }
 	line-height: 0;
 }
 .zanto_tm_mobile_menu .dropdown{
+	--tw-bg-opacity: 1;
+    background-color: rgb(39 39 42);
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
-	background-color: #fff;
 	display: none;
 }
 .zanto_tm_mobile_menu .dropdown .dropdown_inner{
@@ -334,8 +358,8 @@ h6 { font-size: 16px; }
 	width: 100%;
 }
 .zanto_tm_mobile_menu .dropdown .dropdown_inner ul li a{
+	color: #fff;
 	text-decoration: none;
-	color: #000;
 	display: inline-block;
 	padding: 0px 0px;
 	font-weight: 500;
@@ -346,7 +370,6 @@ h6 { font-size: 16px; }
 .zanto_tm_mobile_menu .download_cv a{
 	color: #fff !important;
 	border-radius: 50px;
-	background-color: #f75023;
 	padding: 7px 40px !important;
 }
 .zanto_tm_mobile_menu .hamburger-inner, 
@@ -368,14 +391,13 @@ h6 { font-size: 16px; }
 /*---------------------------------------------------*/
 
 .zanto_tm_header{
-	position: fixed;
+	/* background-color: #06D8A7; */
+	position:absolute;
 	top: 0px;
 	left: 0px;
 	right: 0px;
 	z-index: 10;
-	border-bottom: 1px solid #24315E;
 	padding: 25px 0px;
-	background: #fff;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -385,7 +407,7 @@ h6 { font-size: 16px; }
 }
 .zanto_tm_header.animate{
 	padding: 15px 0px;
-	background-color: #fff;
+	background-color: #000;
 	border-bottom: 1px solid rgba(36,0,0,.5);
 }
 .zanto_tm_header .header_in{
@@ -406,7 +428,7 @@ h6 { font-size: 16px; }
 	margin-right: 50px;
 }
 .zanto_tm_header .menu ul li a{
-	color: #24315E;
+	color: #fff;
 	font-weight: 600;
 	
 	-webkit-transition: all .3s ease;
@@ -417,15 +439,16 @@ h6 { font-size: 16px; }
 }
 .zanto_tm_header .menu ul li.current a,
 .zanto_tm_header .menu ul li a:hover{
-	color: #FF4612;
+	color: rgb(180, 180, 180);
 }
 .zanto_tm_header .button a{
+	border-radius: 0.375rem;
 	display: inline-block;
 	color: #fff;
 	font-family: var(--font-family-inter);
 	font-weight: 500;
 	background-color: #24315E;
-	padding: 20px 40px 19px 40px;
+	padding: 10px 20px;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -434,8 +457,8 @@ h6 { font-size: 16px; }
 	        transition: all .3s ease;	
 }
 .zanto_tm_header .button a:hover{
-	background-color: #fff;
-	color: #24315E;
+	background-color: #1b264e;
+	color: #fff;
 }
 .zanto_tm_header.animate .button a{
 	padding: 15px 40px 14px 40px;
@@ -445,18 +468,30 @@ h6 { font-size: 16px; }
 	color: #fff;
 }
 
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.flex-item {
+	width: 100%;
+	flex: center;
+}
+
 /*---------------------------------------------------*/
 /*	04) zanto HERO
 /*---------------------------------------------------*/
 
 .zanto_tm_hero{
+	/* background-color: #A586FF; */
 	width: 100%;
-	height: 60vh;
-	float: left;
+	height: 100vh;
 	position: relative;
+	display: flex;
+	align-items: center;
 }
 .zanto_tm_hero .background{
-	
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -467,48 +502,40 @@ h6 { font-size: 16px; }
 	background-position: center;
 }
 .zanto_tm_hero .content{
-	width: 100%;
+	display: flex;
+	justify-self: center;
+	align-self: center;
 }
 
-.zanto_tm_hero .details{
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	margin-top: 20vh;
-	margin-left: 2vh;
-	margin-right: 2vh;
-}
+/* .zanto_tm_hero .details{
+
+} */
 
 .zanto_tm_hero .hi{
-	display: inline-block;
 	font-family: var(--font-family-inter);
 	font-size: 20px;
-	color: #24315E;
 	font-weight: 500;
 	margin-bottom: 20px;
-	max-width: 70%;
 }
 
 .zanto_tm_hero .name{
 	font-size: 88px;
 	letter-spacing: -4px;
 	line-height: 1;
-	margin-bottom: 20px;
+	margin-bottom: 18px;
 }
 .zanto_tm_hero .text{
 	font-size: 77px;
 	font-weight: 600;
-	color: #24315E;
+	margin-top: 20px;
 	margin-bottom: 60px;
 }
 
 .zanto_tm_hero .hi2{
-	display: inline-block;
 	font-size: 20px;
-	color: #24315E;
 	font-weight: 500;
-	margin-bottom: 20px;
-	max-width: 100%;
+	margin-bottom: 40px;
+	max-width: 66%;
 }
 
 .zanto_tm_hero .buttons{
@@ -525,22 +552,22 @@ h6 { font-size: 16px; }
 	float: left;
 }
 .zanto_tm_button a{
-	color: #24315E;
-	border: 2px solid #24315E;
+	border-radius: 0.375rem;
 	display: inline-block;
-	background-color: #fff;
+	color: #fff;
 	font-family: var(--font-family-inter);
 	font-weight: 500;
-	padding: 17px 40px;
+	background-color: #24315E;
+	padding: 10px 20px;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+	        transition: all .3s ease;	
 }
 .zanto_tm_button a:hover{
-	background-color: #24315E;
+	background-color: #1b264e;
 	color: #fff;
 }
 .zanto_tm_hero .simple_button{
@@ -715,11 +742,12 @@ h6 { font-size: 16px; }
 /*---------------------------------------------------*/
 
 .zanto_tm_features{
+	/* background-color: #06D8A7; */
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	margin-top: 100px;
 }
 .zanto_tm_features .features_list{
@@ -809,6 +837,7 @@ h6 { font-size: 16px; }
 /*---------------------------------------------------*/
 
 .zanto_tm_skills{
+	/* background-color: #3A00FF; */
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1231,6 +1260,7 @@ h6 { font-size: 16px; }
 /*---------------------------------------------------*/
 
 .zanto_tm_portfolio{
+	/* background-color: #999; */
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1917,6 +1947,7 @@ h6 { font-size: 16px; }
 	color: #fff;
 }
 .zanto_tm_contact{
+	/* background-color: #999999; */
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -2197,7 +2228,7 @@ h6 { font-size: 16px; }
 @media (max-width: 1600px) {
 	body{font-size: 16px;line-height: 29px;}
 	.container{max-width: 1130px;padding: 0px 30px;}
-	.container.wide{max-width: 1200px;}
+	.container.wide{max-width: 100%;}
 	.zanto_tm_header .button a{padding: 10px 30px 9px 30px;}
 	.zanto_tm_header .logo img{height: 60px;}
 	.zanto_tm_header{padding: 15px 0px;}
@@ -2357,7 +2388,7 @@ h6 { font-size: 16px; }
 	.zanto_tm_features ul li .title h3{font-size: 25px;}
 	.zanto_tm_hero .details{margin-top: 15vh; margin-left: 0; margin-right: 0;}
 	.zanto_tm_hero .hi{font-size: 15px; width: 100%; margin-bottom: 15px;}
-	.zanto_tm_hero .name{font-size: 35px;font-weight: 600; margin-bottom: 15px;}
+	.zanto_tm_hero .name{font-size: 35px;font-weight: 600; margin-bottom: 0px;}
 	.zanto_tm_hero .text{font-size: 25px;margin-bottom: 10px;}
 	.zanto_tm_hero .hi2{font-size: 15px;}
 	.zanto_tm_hero .avatar img{display: none;}
