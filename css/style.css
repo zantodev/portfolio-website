@@ -111,8 +111,8 @@ body::-webkit-scrollbar-thumb {
 	position:relative;
 	clear:both;
 }
-.container.wide{
-	max-width: 100%;
+.container-wide{
+	max-width: 1400px;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -485,7 +485,7 @@ h6 { font-size: 16px; }
 
 .zanto_tm_hero{
 	/* background-color: #A586FF; */
-	width: 100%;
+	width: auto;
 	height: 100vh;
 	position: relative;
 	display: flex;
@@ -2349,6 +2349,7 @@ h6 { font-size: 16px; }
 	.zanto_tm_features ul{margin: 0px;}
 	.zanto_tm_features ul li{width: 100%;padding-left: 0px;}
 	.zanto_tm_features ul li .title h3{font-size: 25px;}
+	.zanto_tm_header .details{width: 100%;}
 	.zanto_tm_hero .hi{font-size: 15px;}
 	.zanto_tm_hero .name{font-size: 55px;margin-bottom: 15px;}
 	.zanto_tm_hero .text{font-size: 35px;margin-bottom: 40px;}
@@ -2367,7 +2368,7 @@ h6 { font-size: 16px; }
 	.zanto_tm_features ul{margin: 0px;}
 	.zanto_tm_features ul li{width: 100%;padding-left: 0px;}
 	.zanto_tm_features ul li .title h3{font-size: 25px;}
-	.zanto_tm_hero .details{margin-top: 25vh; margin-left: 0; margin-right: 0;}
+	.zanto_tm_hero .details{margin-top: 25vh; margin: 0px;}
 	.zanto_tm_hero .hi{font-size: 15px;}
 	.zanto_tm_hero .name{font-size: 55px;margin-bottom: 15px;}
 	.zanto_tm_hero .text{font-size: 35px;margin-bottom: 40px;}
@@ -2386,11 +2387,11 @@ h6 { font-size: 16px; }
 	.zanto_tm_features ul{margin: 0px;}
 	.zanto_tm_features ul li{width: 100%;padding-left: 0px;}
 	.zanto_tm_features ul li .title h3{font-size: 25px;}
-	.zanto_tm_hero .details{margin: auto;}
+	.zanto_tm_hero .details{margin: 0px; width: 100%;}
 	.zanto_tm_hero .hi{font-size: 15px;}
 	.zanto_tm_hero .name{font-size: 35px; margin-bottom: 5px;}
 	.zanto_tm_hero .text{font-size: 25px;margin-bottom: 15px;}
-	.zanto_tm_hero .hi2{font-size: 15px;  margin-bottom: 19px}
+	.zanto_tm_hero .hi2{font-size: 15px;  margin-bottom: 25px;}
 	.zanto_tm_hero .avatar img{display: none;}
 	.zanto_tm_main_title h3{font-size: 35px;}
 	.zanto_tm_counter_section ul{margin: 0px;}
