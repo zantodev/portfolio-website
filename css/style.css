@@ -2388,9 +2388,9 @@ h6 { font-size: 16px; }
 	.zanto_tm_features ul li{width: 100%;padding-left: 0px;}
 	.zanto_tm_features ul li .title h3{font-size: 25px;}
 	.zanto_tm_hero .details{margin: 0px; width: 100%;}
-	.zanto_tm_hero .hi{font-size: 15px;}
-	.zanto_tm_hero .name{font-size: 35px; margin-bottom: 5px;}
-	.zanto_tm_hero .text{font-size: 25px;margin-bottom: 15px;}
+	.zanto_tm_hero .hi{font-size: 25px;}
+	.zanto_tm_hero .name{font-size: 40px; margin-bottom: 5px;}
+	.zanto_tm_hero .text{font-size: 30px;margin-bottom: 15px;}
 	.zanto_tm_hero .hi2{font-size: 15px;  margin-bottom: 25px;}
 	.zanto_tm_hero .avatar img{display: none;}
 	.zanto_tm_main_title h3{font-size: 35px;}
