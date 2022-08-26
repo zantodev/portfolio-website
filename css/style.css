@@ -514,7 +514,6 @@ h6 { font-size: 16px; }
 .zanto_tm_hero .hi{
 	font-family: var(--font-family-inter);
 	font-size: 20px;
-	font-weight: 500;
 	margin-bottom: 20px;
 }
 
@@ -526,14 +525,12 @@ h6 { font-size: 16px; }
 }
 .zanto_tm_hero .text{
 	font-size: 77px;
-	font-weight: 600;
 	margin-top: 20px;
 	margin-bottom: 60px;
 }
 
 .zanto_tm_hero .hi2{
 	font-size: 20px;
-	font-weight: 500;
 	margin-bottom: 40px;
 }
 
