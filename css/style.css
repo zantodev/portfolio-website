@@ -516,18 +516,19 @@ h6 { font-size: 16px; }
 
 .zanto_tm_hero .name{
 	font-size: 70px;
-	letter-spacing: -4px;
+	letter-spacing: -3px;
 	line-height: 1;
 	margin-bottom: 18px;
 	margin-left: auto;
 	margin-right: auto;
 }
 .zanto_tm_hero .text{
-	font-size: 77px;
-	margin-top: 20px;
-	margin-bottom: 60px;
-	margin-left: auto;
-	margin-right: auto;
+	font-size: 70px;
+	letter-spacing: -3px;
+	line-height: 1;
+	margin-bottom: 18px;
+	margin-left: 10px;
+	margin-right: 10px;
 	
 }
 
