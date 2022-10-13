@@ -565,6 +565,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
+.mx-10 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
