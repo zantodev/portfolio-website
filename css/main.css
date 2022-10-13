@@ -836,8 +836,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1.25rem;
 }
 
-.px-3 {
+.pl-3 {
   padding-left: 0.75rem;
+  
+}
+
+.pl-3 {
   padding-right: 0.75rem;
 }
 
@@ -1122,6 +1126,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 24px;
   transition: all 0.25s;
   position: relative;
+  margin-right: 0.75rem;
 }
 
 .hamburger-top,
@@ -1132,7 +1137,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: 0;
   width: 24px;
   height: 2px;
-  background: #000;
+  background: #ffffff;
   transform: rotate(0);
   transition: all 0.5s;
 }
