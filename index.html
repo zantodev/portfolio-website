@@ -13,32 +13,29 @@
     <link rel="stylesheet" href="./css/main.css" />
     <title>t.zepeda</title>
   </head>
-  <body class="font-nunito dark">
+
+
+  <body class="font-poppins dark">
     <!-- into section -->
-    <div
-      class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 dark:from-slate-800 dark:to-slate-900 relative overflow-hidden"
-    >
+    
       <!-- navbar -->
       <nav class="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
         <div class="container mx-auto py-5 flex items-center justify-between">
           <div class="flex items-center gap-2">
             <!-- <img class="w-8" src="./img/logo.png" alt="" /> -->
             <a href="#" class="text-2xl pl-3 font-bold text-indigo-900 dark:text-white"
-              >t.zepeda
-          </a>
+              >
+              t.zepeda
+            </a>
+
           </div>
+
           <ul
             class="hidden md:flex space-x-10 text-gray-600 dark:text-gray-100 font-bold text-sm uppercase"
           >
             <li class="hover:text-gray-500">
               <a href="#">homepage</a>
             </li>
-            <!-- <li class="hover:text-gray-500">
-              <a href="#about">about me</a>
-            </li>
-            <li class="hover:text-gray-500">
-              <a href="#services">services</a>
-            </li> -->
             <li class="hover:text-gray-500">
               <a href="#works">works</a>
             </li>
@@ -65,12 +62,6 @@
             <li>
               <a id="hLink" href="#">homepage</a>
             </li>
-            <!-- <li>
-              <a id="hLink" href="#about">about me</a>
-            </li>
-            <li>
-              <a id="hLink" href="#services">services</a>
-            </li> -->
             <li>
               <a id="hLink" href="#works">works</a>
             </li>
@@ -78,91 +69,39 @@
               <a id="hLink" href="#contact">contact</a>
             </li>
           </ul>
-        </div>
+        
       </nav>
-      <!-- intro content -->
-      <!-- image -->
-      <!-- <img
-        class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover"
-        src="./img/man.png"
-        alt=""
-      /> -->
-      <!-- circle -->
-      <!-- <div
-        class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-big h-big bg-indigo-900 rounded-full "
-      ></div> -->
-      <!-- animated text -->
-      <div class="absolute top-1/3 left-5 text-2xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-48 xl:left-48 xl:text-7xl font-bold">
+      <!-- ===== Navbar End -->
+     
+      <!-- ===== Hero Content Start -->
+      <div
+      class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 dark:from-slate-800 dark:to-slate-900 relative overflow-hidden"
+    >
+      <div class="absolute top-1/3 left-5 text-2xl sm:left-10 sm:text-4xl w-full md:flex-start md:text-6xl lg:left-48 xl:left-48 xl:text-7xl font-bold">
         <div>
-          <div class="flex flex-row m-1">
-            <h1 class="text-gray-600 m-1">Hi, </h1>
-            <h1 class="m-1 text-white">I'm Luis</h1>
+
+          <div class="flex flex-row my-3">
+            <h1 class="text-gray-600">Hi, </h1>
+            <h1 class="text-white mx-10">I'm Luis</h1>
           </div>
+
           <div>
           <span class="text-gray-600">
             I Make Things For The Web Using,
           </span>
-          
+          </div>
+
+          <div class="my-3">
+              <p id="text" class="text-red-500">
+                <!-- === Hidden Text -->
+              </p>
+            </div>
         </div>
-        <div>
-          <p id="text" class="text-red-500"></p>
-        </div>
+
       </div>
-      
-      <!-- texts -->
-      <!-- <div
-        class="lg:flex flex-col gap-5 rounded-md shadow-lg absolute top-0 bottom-0 m-auto right-10 bg-white dark:bg-slate-900 dark:shadow-slate-800 p-6 h-fit"
-      >
-        <h1 class="text-5xl font-bold text-indigo-900">I'm Tony</h1>
-        <p class="text-gray-400 text-3xl">
-          I Make Things For The Web
-        </p>
-        
-      </div> -->
+    
     </div>
-    <!-- about -->
-    <!-- <div id="about" class="px-10 dark:bg-slate-900">
-      <div
-        class="container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20"
-      > -->
-        <!-- left -->
-        <!-- <div class="relative">
-          <img
-            class="h-1/4 absolute top-0 left-0 -z-10"
-            src="./img/dots.png"
-            alt=""
-          />
-          <div class="h-full rounded-full overflow-hidden">
-            <img src="./img/portrait.png" alt="" />
-          </div>
-        </div> -->
-        <!-- right -->
-        <!-- <div class="my-auto flex flex-col gap-3">
-          <h1 class="text-indigo-600 font-bold">ABOUT ME</h1>
-          <h1 class="text-3xl font-medium dark:text-white">Better Design</h1>
-          <h1 class="text-3xl font-medium dark:text-white">
-            Better Experience
-          </h1>
-          <p class="text-gray-400">
-            I design and build digital products. I'm also a multi-disciplinary
-            maker with over 10 years of experiences in wide range of design
-            disciplines.
-          </p>
-          <h2 class="text-gray-400 font-medium">HTML</h2>
-          <div class="w-full bg-gray-200 h-1.5 rounded-md">
-            <div class="w-full bg-indigo-600 h-1.5 rounded-md"></div>
-          </div>
-          <h2 class="text-gray-400 font-medium">Javascript</h2>
-          <div class="w-full bg-gray-200 h-1.5 rounded-md">
-            <div class="w-4/6 bg-indigo-600 h-1.5 rounded-md"></div>
-          </div>
-          <h2 class="text-gray-400 font-medium">React</h2>
-          <div class="w-full bg-gray-200 h-1.5 rounded-md">
-            <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
-          </div>
-        </div>
-      </div>
-    </div> -->
+   
     <!-- services -->
     <div id="works" class="dark:bg-slate-900">
       <div class="container mx-auto py-40">
@@ -240,11 +179,7 @@
                 html / css / Javascript /
               </p>
               <div class="flex flex-row p-2">
-                <!-- <a href="https://google.com" target="_blank" class="mx-auto bg-indigo-600 text-white font-medium py-2 rounded-full cursor-pointer">
-                  <span class="px-3">
-                    Live Website
-                  </span>
-                </a> -->
+                
                 <a href="https://github.com/zantodev" class="mx-auto bg-indigo-600 text-white font-medium py-2 rounded-full cursor-pointer ">
                   <span class="px-3">
                     Github
@@ -254,80 +189,70 @@
             </div>
           </div>
 
-          <!-- card 4 -->
-          <!-- <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
+           <!-- card 4 -->
+           <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
             <div>
-              <img class="" src="./img/cnob.png" alt="" />
+              <img class="" src="./img/gridportfolio.png" alt="" />
             </div>
               
-            <div>
+            <div class="mx-auto">
               <p class="text-gray-400">
-                html / css / Javascript / node.js / taiwindcss
+                html / css / Javascript /
               </p>
               <div class="flex flex-row p-2">
-                <button class="mx-auto bg-indigo-600 text-white font-medium py-2 rounded-full cursor-pointer">
-                  <span class="px-3">
-                    Live Website
-                  </span>
-                </button>
-                <button class="mx-auto bg-indigo-600 text-white font-medium py-2 rounded-full cursor-pointer ">
+                
+                <a href="https://github.com/zantodev" class="mx-auto bg-indigo-600 text-white font-medium py-2 rounded-full cursor-pointer ">
                   <span class="px-3">
                     Github
                   </span>
-                </button>
+                </a>
               </div>
             </div>
-          </div> -->
+          </div>
 
-          <!-- card 5 -->
-          <!-- <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
+           <!-- card 5 -->
+           <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
             <div>
-              <img class="" src="./img/cnob.png" alt="" />
+              <img class="" src="./img/gridportfolio.png" alt="" />
             </div>
               
-            <div>
+            <div class="mx-auto">
               <p class="text-gray-400">
-                html / css / Javascript / node.js / taiwindcss
+                html / css / Javascript /
               </p>
               <div class="flex flex-row p-2">
-                <button class="mx-auto bg-indigo-600 text-white font-medium py-2 rounded-full cursor-pointer">
-                  <span class="px-3">
-                    Live Website
-                  </span>
-                </button>
-                <button class="mx-auto bg-indigo-600 text-white font-medium py-2 rounded-full cursor-pointer ">
+                
+                <a href="https://github.com/zantodev" class="mx-auto bg-indigo-600 text-white font-medium py-2 rounded-full cursor-pointer ">
                   <span class="px-3">
                     Github
                   </span>
-                </button>
+                </a>
               </div>
             </div>
-          </div> -->
+          </div>
 
-          <!-- card 6 -->
-          <!-- <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
+           <!-- card 6 -->
+           <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
             <div>
-              <img class="" src="./img/cnob.png" alt="" />
+              <img class="" src="./img/gridportfolio.png" alt="" />
             </div>
               
-            <div>
+            <div class="mx-auto">
               <p class="text-gray-400">
-                html / css / Javascript / node.js / taiwindcss
+                html / css / Javascript /
               </p>
               <div class="flex flex-row p-2">
-                <button class="mx-auto bg-indigo-600 text-white font-medium py-2 rounded-full cursor-pointer">
-                  <span class="px-3">
-                    Live Website
-                  </span>
-                </button>
-                <button class="mx-auto bg-indigo-600 text-white font-medium py-2 rounded-full cursor-pointer ">
+                
+                <a href="https://github.com/zantodev" class="mx-auto bg-indigo-600 text-white font-medium py-2 rounded-full cursor-pointer ">
                   <span class="px-3">
                     Github
                   </span>
-                </button>
+                </a>
               </div>
             </div>
-          </div> -->
+          </div>
+
+         
 
 
         </div>
