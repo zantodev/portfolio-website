@@ -119,7 +119,7 @@ var AutoTyping = (function (e) {
   ]).default;
   
   
-  const exampleText = ['HTML/CSS', 'JavaScript', 'React', 'Node.JS', 'Mongo.DB', 'Express.JS'];
+  const exampleText = ['HTML/CSS', 'JavaScript', 'React', 'NodeJS', 'MongoDB', 'ExpressJS'];
   const exampleTyping = new AutoTyping('#text', exampleText, {
       typeSpeed: 100,
       deleteSpeed: 100,
