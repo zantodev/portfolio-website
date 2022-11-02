@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zantodev/zantodotdev.git"
+    "url": "git+https://github.com/zantodev/portfolio-website.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zantodev/zantodotdev/issues"
+    "url": "https://github.com/zantodev/portfolio-website/issues"
   },
-  "homepage": "https://github.com/zantodev/zantodotdev#readme",
+  "homepage": "https://github.com/zantodev/portfolio-website#readme",
   "devDependencies": {
     "tailwindcss": "^3.1.8"
   }
